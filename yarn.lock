@@ -7846,7 +7846,7 @@ react-dev-utils@^9.0.1:
     strip-ansi "5.2.0"
     text-table "0.2.0"
 
-react-dom@16.8.6:
+react-dom@^16.8.6:
   version "16.8.6"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.8.6.tgz#71d6303f631e8b0097f56165ef608f051ff6e10f"
   integrity sha512-1nL7PIq9LTL3fthPqwkvr2zY7phIPjYrT0jp4HjyEQrEROnw4dG41VVwi/wfoCneoleqrNX7iAD+pXebJZwrwA==
@@ -7926,7 +7926,7 @@ react-scripts@3.0.1:
   optionalDependencies:
     fsevents "2.0.6"
 
-react@16.8.6:
+react@^16.8.6:
   version "16.8.6"
   resolved "https://registry.yarnpkg.com/react/-/react-16.8.6.tgz#ad6c3a9614fd3a4e9ef51117f54d888da01f2bbe"
   integrity sha512-pC0uMkhLaHm11ZSJULfOBqV4tIZkx87ZLvbbQYunNixAAvjnC+snJCg0XQXn9VIsttVsbZP/H/ewzgsd5fxKXw==
@@ -8256,6 +8256,29 @@ ret@~0.1.10:
   version "0.1.15"
   resolved "https://registry.yarnpkg.com/ret/-/ret-0.1.15.tgz#b8a4825d5bdb1fc3f6f53c2bc33f81388681c7bc"
   integrity sha512-TTlYpa+OL+vMMNG24xSlQGEJ3B/RzEfUlLct7b5G/ytav+wPrplCpVMFuwzXbkecJrb6IYo1iFb0S9v37754mg==
+
+rete-area-plugin@0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/rete-area-plugin/-/rete-area-plugin-0.2.1.tgz#0afe4581baf99c36c904d08e4f0a835ed6604d86"
+  integrity sha512-MOeQRmSC/gjkZIMo0fNuomzunRplALqd86V+jSzuhBYchCw0wshv2/iXu4xRxVZkw9r1HpZxlz9gLkbatCbXMw==
+
+rete-connection-plugin@0.7.2:
+  version "0.7.2"
+  resolved "https://registry.yarnpkg.com/rete-connection-plugin/-/rete-connection-plugin-0.7.2.tgz#845ecd92f52302300c1927398bb4a63dc0d40f53"
+  integrity sha512-AGMto9BGZA2lZMQMcSv3tLSg6a98udFCMBDG5JhZkRfi5Zciry7KUMDX1NmNWsG8FPdPSRdm9nWNjClCejE6dw==
+
+rete-react-render-plugin@0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/rete-react-render-plugin/-/rete-react-render-plugin-0.2.0.tgz#35e74383fc9c12c8a61fc54c74de43e85ac765f7"
+  integrity sha512-1onQTVALyTsHSnKB/KIA+Xu4TdyWuS3yck6tK8+o4XR+I0MuYfa8JT8nzyHmtIW3e9yV+NQZb1j9R5ZTQvSllA==
+  dependencies:
+    react "^16.8.6"
+    react-dom "^16.8.6"
+
+rete@1.3.1-rc.3:
+  version "1.3.1-rc.3"
+  resolved "https://registry.yarnpkg.com/rete/-/rete-1.3.1-rc.3.tgz#f8f0472061052318551f0d4703eff7fb14a61ed1"
+  integrity sha512-C3IgWdTiFQO599nr/RUKOe2QKhUb72+qnyhd8LsVkmFZO/r2RkfrDfJT2oyrMXUV8T0r1o6RFhp5uO4FSEzcRA==
 
 rgb-regex@^1.0.1:
   version "1.0.1"
